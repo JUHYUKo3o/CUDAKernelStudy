@@ -1,3 +1,4 @@
+# Kernel class
 import numpy as np
 
 class ker_is():

@@ -1,5 +1,4 @@
 ### CUDA로 Convolution Function 만들기
-## 10월 2주차
 # kernal종류 여러개로 사진 처리
 import numpy as np
 import matplotlib.pyplot as plt
