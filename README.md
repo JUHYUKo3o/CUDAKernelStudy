@@ -1,6 +1,11 @@
-# CUDAKernelStudy
-CUDAKernelStudy
+## CUDAKernelStudy
+# 2020.10.
+# JUHYUK
 
-Convolution Code
-Ryan.png
-Gaussian
+# 2D Convolution study (Gray Scale)
+
+Kernel : Motion, Gaussian, Sobel, Laplacian Kernels
+
+Language :  python, CUDA
+
+padding, convolution by CUDA
