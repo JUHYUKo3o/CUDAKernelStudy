@@ -6,11 +6,10 @@ import numpy as np
 
 class imagecall():
     def __init__(self,impath):
-        imgget = np.array(Image.open(impath).convert('L'))
+        imgget = np.array(Image.open(impath).convert('RGB'))
 
-        img01 = imgget.astype(np.float64).reshape((960,960))
+        img01 = imgget.astype(np.float64)
         imgmin = img01-img01.min()
         img = imgmin/imgmin.max()
         self.img = img
 
-        # self.img = self.img.reshape((self.img.shape[0],self.img.shape[1],1))

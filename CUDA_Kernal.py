@@ -81,6 +81,9 @@ class convolution:
         k_gpu.free()
         c_gpu.free()
         bias_gpu.free()
+        C = (C32).astype(np.float64)
+        
+        C = (C+np.abs(C.min()))/(C+np.abs(C.min())).max()
 
-        return (C32).astype(np.float64)
+        return C
 
