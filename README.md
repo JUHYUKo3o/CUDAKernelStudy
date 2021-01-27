@@ -8,4 +8,5 @@ Kernel : Motion, Gaussian, Sobel, Laplacian Kernels
 
 Language :  python, CUDA
 
-padding, convolution by CUDA
+Padding, convolution by CUDA
+
